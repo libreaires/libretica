@@ -1,163 +1,210 @@
-### See https://github.com/be5invis/Iosevka/blob/master/doc/custom-build.md for comprehensive
-### documentation of the options in this file
+[buildPlans.Libretica]
+family = "libretica"
+spacing = "term"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = true
 
-[buildPlans.IosevkaCustom]      # <IosevkaCustom> is your plan name
-family = "Iosevka Custom"        # Font menu family name
-spacing = "normal"               # Optional; Values: `normal`, `term`, `fontconfig-mono`, or `fixed`
-serifs = "sans"                  # Optional; Values: `sans` or `slab`
-exportGlyphNames = false       # Set this to true for ligature support in Kitty (increased file size)
+  [buildPlans.Libretica.variants]
+  inherits = "ss14"
 
-webfontFormats = ['ttf', 'woff2']
+    [buildPlans.Libretica.variants.design]
+    one = "base-flat-top-serif"
+    two = "straight-neck-serifless"
+    three = "flat-top-serifless"
+    four = "closed-non-crossing-serifless"
+    five = "upright-flat-hook-serifless"
+    six = "closed-contour"
+    seven = "bend-serifless"
+    eight = "crossing"
+    nine = "closed-contour"
+    zero = "dotted"
+    capital-a = "round-top-serifless"
+    capital-b = "more-asymmetric-serifless"
+    capital-c = "serifless"
+    capital-d = "standard-serifless"
+    capital-e = "serifless"
+    capital-f = "serifless"
+    capital-g = "flat-bottom-serifless-hookless"
+    capital-h = "serifless"
+    capital-i = "serifless"
+    capital-j = "descending-serifed"
+    capital-k = "symmetric-connected-serifless"
+    capital-l = "serifless"
+    capital-m = "hanging-serifless"
+    capital-n = "asymmetric-serifless"
+    capital-p = "closed-serifless"
+    capital-q = "open-swash"
+    capital-r = "standing-serifless"
+    capital-s = "serifless"
+    capital-t = "serifless"
+    capital-u = "toothed-serifless"
+    capital-v = "curly-serifless"
+    capital-w = "rounded-vertical-sides-serifless"
+    capital-x = "curly-serifless"
+    capital-y = "curly-serifless"
+    capital-z = "cursive"
+    a = "double-storey-flat-bottom-serifless"
+    b = "toothless-rounded-serifless"
+    c = "serifless"
+    d = "toothless-rounded-serifless"
+    e = "flat-crossbar"
+    f = "flat-hook-tailed-crossbar-at-half-ascender-height"
+    g = "double-storey"
+    h = "straight-serifless"
+    i = "serifed-semi-tailed"
+    j = "flat-hook-serifed"
+    k = "cursive-serifless"
+    l = "flat-tailed"
+    m = "earless-corner-double-arch-short-leg-serifless"
+    n = "earless-rounded-straight-serifless"
+    p = "earless-rounded-serifless"
+    q = "earless-rounded-straight-serifless"
+    r = "earless-rounded-serifless"
+    s = "serifless"
+    t = "flat-hook-asymmetric"
+    u = "toothless-rounded-serifless"
+    v = "cursive-serifless"
+    w = "rounded-vertical-sides-serifless"
+    x = "curly-serifless"
+    y = "cursive-serifless"
+    z = "cursive"
+    capital-eszet = "flat-top-serifless"
+    long-s = "flat-hook-tailed"
+    eszet = "traditional-tailed-serifless"
+    lower-eth = "straight-bar"
+    capital-thorn = "serifless"
+    lower-thorn = "serifless"
+    lower-alpha = "barred-earless-rounded-tailed"
+    lower-beta = "standard"
+    capital-gamma = "top-right-serifed"
+    lower-gamma = "casual"
+    capital-delta = "curly"
+    lower-delta = "flat-top"
+    lower-zeta = "straight-tail"
+    lower-eta = "earless-rounded-serifless"
+    lower-theta = "cursive"
+    lower-iota = "diagonal-tailed"
+    lower-kappa = "symmetric-connected-serifless"
+    capital-lambda = "curly-serifless"
+    lower-lambda = "curly-tailed-turn"
+    lower-mu = "toothless-rounded-serifless"
+    lower-nu = "casual"
+    lower-xi = "rounded-straight-tail"
+    lower-pi = "small-capital"
+    lower-final-sigma = "straight-tail"
+    lower-tau = "semi-tailed"
+    lower-upsilon = "casual-serifless"
+    lower-phi = "cursive"
+    lower-chi = "curly-above-baseline-serifless"
+    lower-psi = "serifless"
+    partial-derivative = "curly-bar"
+    cyrl-a = "double-storey-hook-inward-serifed-toothless-rounded"
+    cyrl-ve = "rounded-top-serifless"
+    cyrl-capital-zhe = "curly"
+    cyrl-zhe = "curly"
+    cyrl-capital-ze = "serifless"
+    cyrl-ze = "serifless"
+    cyrl-capital-ka = "symmetric-connected-serifless"
+    cyrl-ka = "symmetric-connected-serifless"
+    cyrl-el = "straight"
+    cyrl-em = "hanging-serifless"
+    cyrl-capital-en = "serifless"
+    cyrl-en = "serifless"
+    cyrl-capital-er = "closed-serifless"
+    cyrl-er = "earless-rounded-serifless"
+    cyrl-capital-u = "straight-serifless"
+    cyrl-u = "straight-serifless"
+    cyrl-ef = "cursive"
+    cyrl-che = "standard"
+    cyrl-yeri = "round"
+    cyrl-yery = "round-tailed"
+    cyrl-capital-e = "bilateral-mid-serifed"
+    cyrl-e = "bilateral-mid-serifed"
+    cyrl-capital-ya = "straight-serifless"
+    cyrl-ya = "straight-serifless"
+    tittle = "square"
+    diacritic-dot = "square"
+    punctuation-dot = "square"
+    braille-dot = "square"
+    ellipsis-density = "dense"
+    tilde = "low"
+    asterisk = "hex-low"
+    underscore = "above-baseline"
+    caret = "low"
+    ascii-grave = "raised-inverse-comma"
+    ascii-single-quote = "raised-comma"
+    paren = "flat-arc"
+    brace = "curly-flat-boundary"
+    guillemet = "curly"
+    number-sign = "upright-tall"
+    ampersand = "lower-open"
+    at = "compact"
+    dollar = "open-cap"
+    cent = "open-cap"
+    percent = "dots"
+    bar = "natural-slope"
+    question = "corner-flat-hooked"
+    pilcrow = "curved"
+    micro-sign = "toothed-serifless"
+    decorative-angle-brackets = "short"
+    lig-ltgteq = "flat"
+    lig-neq = "vertical-dotted"
+    lig-equal-chain = "without-notch"
+    lig-hyphen-chain = "without-notch"
+    lig-plus-chain = "without-notch"
+    lig-double-arrow-bar = "without-notch"
+    lig-single-arrow-bar = "without-notch"
 
-###################################################################################################
-# Configure variants
+  [buildPlans.Libretica.ligations]
+  inherits = "dlig"
 
-# Optional; Whether to inherit a `ss##` variant
-[buildPlans.IosevkaCustom.variants]
-inherits = "ss01"
+[buildPlans.Libretica.weights.Regular]
+shape = 400
+menu = 400
+css = 400
 
-# Optional; Configure single character's variant
-[buildPlans.IosevkaCustom.variants.design]
-g = 'single-storey-serifless'
+[buildPlans.Libretica.weights.Thin]
+shape = 100
+menu = 100
+css = 100
 
-# Optional; Configure single character's variant for Upright and Oblique; Overrides [design]
-[buildPlans.IosevkaCustom.variants.upright]
-i = 'zshaped'
-l = 'zshaped'
+[buildPlans.Libretica.weights.ExtraLight]
+shape = 200
+menu = 200
+css = 200
 
-# Optional; Configure single character's variant for Italic only; Overrides [design]
-[buildPlans.IosevkaCustom.variants.italic]
-i = 'tailed-serifed'
-l = 'tailed-serifed'
+[buildPlans.Libretica.weights.Light]
+shape = 300
+menu = 300
+css = 300
 
-# End variant section
-###################################################################################################
+[buildPlans.Libretica.weights.Medium]
+shape = 500
+menu = 500
+css = 500
 
-###################################################################################################
-# Configure ligations
-
-[buildPlans.IosevkaCustom.ligations]
-inherits = "default-calt"   # Optional; inherits an existing ligation set
-disables = []               # Optional; disable specific ligation groups, overrides inherited ligation set
-enables  = []               # Optional; enable specific ligation groups, overrides inherited ligation set
-
-# End ligation section
-###################################################################################################
-
-
-###################################################################################################
-# Override default building weights
-# When buildPlans.<plan name>.weights is absent, all weights would built and mapped to
-# default values.
-# IMPORTANT : Currently "menu" and "css" property only support numbers between 0 and 1000.
-#             and "shape" properly only supports number between 100 and 900 (inclusive).
-#             If you decide to use custom weights you have to define all the weights you
-#             plan to use otherwise they will not be built.
-[buildPlans.IosevkaCustom.weights.Regular]
-shape = 400  # Weight for glyph shapes.
-menu  = 400  # Weight for the font's names.
-css   = 400  # Weight for webfont CSS.
-
-[buildPlans.IosevkaCustom.weights.Book]
-shape = 450
-menu  = 450  # Use 450 here to name the font's weight "Book"
-css   = 450
-
-[buildPlans.IosevkaCustom.weights.Bold]
-shape = 700
-menu  = 700
-css   = 700
-
-# End weight section
-###################################################################################################
-
-###################################################################################################
-# Override default building slope sets
-# When this section is absent, all slopes would be built.
-
-[buildPlans.IosevkaCustom.slopes.Upright]
-angle = 0             # Angle in degrees. Valid range [0, 15]
-shape = "upright"     # Slope grade used for shape selection.  `upright` | `oblique` | `italic`
-menu  = "upright"     # Slope grade used for naming.           `upright` | `oblique` | `italic`
-css   = "normal"      # Slope grade used for webfont CSS.      `normal`  | `oblique` | `italic`
-
-[buildPlans.IosevkaCustom.slopes.Oblique]
-angle = 9.4
-shape = "oblique"
-menu  = "oblique"
-css   = "oblique"
-
-[buildPlans.IosevkaCustom.slopes.Italic]
-angle = 9.4
-shape = "italic"
-menu  = "italic"
-css   = "italic"
-# End slope section
-###################################################################################################
-
-###################################################################################################
-# Override default building widths
-# When buildPlans.<plan name>.widths is absent, all widths would built and mapped to
-# default values.
-# IMPORTANT : Currently "shape" property only supports numbers between 434 and 664 (inclusive),
-#             while "menu" only supports integers between 1 and 9 (inclusive).
-#             The "shape" parameter specifies the unit width, measured in 1/1000 em. The glyphs'
-#             width are equal to, or a simple multiple of the unit width.
-#             If you decide to use custom widths you have to define all the widths you plan to use,
-#             otherwise they will not be built.
-
-[buildPlans.IosevkaCustom.widths.Normal]
-shape = 500        # Unit Width, measured in 1/1000 em.
-menu  = 5          # Width grade for the font's names.
-css   = "normal"   # "font-stretch' property of webfont CSS.
-
-[buildPlans.IosevkaCustom.widths.Extended]
+[buildPlans.Libretica.weights.SemiBold]
 shape = 600
-menu  = 7
-css   = "expanded"
+menu = 600
+css = 600
 
-# End width section
-###################################################################################################
+[buildPlans.Libretica.weights.ExtraBold]
+shape = 800
+menu = 800
+css = 800
 
-###################################################################################################
-# Character Exclusion
-# Specify character ranges in the section below to exclude certain characters from the font being
-# built. Remove this section when this feature is not needed.
+[buildPlans.Libretica.weights.Heavy]
+shape = 900
+menu = 900
+css = 900
 
-[buildPlans.IosevkaCustom.excludeChars]
-ranges = [[10003, 10008]]
+[buildPlans.Libretica.widths.Condensed]
+shape = 500
+menu = 3
+css = "condensed"
 
-# End character exclusion
-###################################################################################################
-
-###################################################################################################
-# Compatibility Ligatures
-# Certain applications like Emacs does not support proper programming liagtures provided by
-# OpenType, but can support ligatures provided by PUA codepoints. Therefore you can edit the
-# following section to build PUA characters that are generated from the OpenType ligatures.
-# Remove this section when compatibility ligatures are not needed.
-
-[[buildPlans.IosevkaCustom.compatibilityLigatures]]
-unicode = 57600 # 0xE100
-featureTag = 'calt'
-sequence = '<*>'
-
-# End compatibility ligatures section
-###################################################################################################
-
-###################################################################################################
-# Metric overrides
-# Certain metrics like line height (leading) could be overridden in your build plan file.
-# Edit the values to change the metrics. Remove this section when overriding is not needed.
-
-[buildPlans.IosevkaCustom.metricOverride]
-leading = 1250
-winMetricAscenderPad = 0
-winMetricDescenderPad = 0
-powerlineScaleY = 1
-powerlineScaleX = 1
-powerlineShiftY = 0
-powerlineShiftX = 0
-
-# End metric override section
-###################################################################################################
+[buildPlans.Libretica.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
