@@ -30,17 +30,8 @@ glyph-block Symbol-Punctuation-Dashes : begin
 
 		define joiningOverlap : (-Width) / 6
 
-		# Definição do tamanho e posicionamento dos novos pontos
-		define dotRadius : Math.max (Stroke * 0.75) (Width * 0.12)
-		define leftDotX  : mix SB RightSB 0.25
-		define rightDotX : mix SB RightSB 0.75
-
 		foreach { suffix { yBar } } [Object.entries UnderScoreConfig] : do
-			# Criando os dois pontos em vez da barra horizontal (HBar.b)
-			create-glyph "underscore.\(suffix)" : union
-				RingAt leftDotX  (yBar + dotRadius) dotRadius
-				RingAt rightDotX (yBar + dotRadius) dotRadius
-
+			create-glyph "underscore.\(suffix)" : HBar.b SB RightSB yBar
 			create-glyph "doubleUnderscore.\(suffix)" : composite-proc
 				HBar.b SB RightSB  yBar
 				HBar.b SB RightSB (yBar - openBoxGap)
