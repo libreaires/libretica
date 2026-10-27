@@ -5,6 +5,20 @@ serifs = "sans"
 noCvSs = true
 exportGlyphNames = true
 
+# U (aka. UNDERSCORES)
+[[buildPlans.iosevka-custom.customGlyphs]]
+name = "underscore"
+codePoint = 0x005F
+ptl = """
+    define dotRadius : Math.max (Stroke * 0.75) (Width * 0.12)
+    define leftDotX  : mix SB RightSB 0.25
+    define rightDotX : mix SB RightSB 0.75
+    
+    union
+        RingAt leftDotX  (Descender + dotRadius) dotRadius
+        RingAt rightDotX (Descender + dotRadius) dotRadius
+"""
+
   [buildPlans.Libretica.variants]
   inherits = "ss14"
 
