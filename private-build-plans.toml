@@ -6,7 +6,7 @@ noCvSs = true
 exportGlyphNames = true
 
 # U (aka. UNDERSCORES)
-[[buildPlans.iosevka-custom.customGlyphs]]
+[[buildPlans.Libretica.customGlyphs]]
 name = "underscore"
 codePoint = 0x005F
 ptl = """
