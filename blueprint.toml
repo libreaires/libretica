@@ -1,0 +1,536 @@
+# LIBRETICA SANS
+[ buildPlans.Libretica ]
+	family = "Libretica Sans"
+	spacing = "normal"
+	noCvSs = true
+	exportGlyphNames = false
+
+	# VARIANTS
+		[ buildPlans.Libretica.variants ]
+			inherits = "ss02"
+
+		# DESIGNS
+		[ buildPlans.Libretica.variants.design ]
+
+			# NUMBERS
+		    one = "no-base-long-top-serif"
+		    two = "curly-neck-serifless"
+		    three = "two-arcs"
+		    four = "closed-non-crossing-serifless"
+		    five = "upright-flat-serifless"
+		    six = "straight-bar"
+		    seven = "curly-serifless"
+		    eight = "two-circles"
+		    nine = "straight-bar"
+		    zero = "oval-dotted"
+
+			# CAPITALS
+		    capital-a = "curly-serifless"
+		    capital-b = "more-asymmetric-serifless"
+		    capital-c = "serifless"
+		    capital-d = "more-rounded-serifless"
+		    capital-e = "serifless"
+		    capital-f = "serifless"
+		    capital-g = "toothless-corner-serifless-hookless"
+		    capital-h = "serifless"
+		    capital-i = "serifless"
+		    capital-j = "serifless"
+		    capital-k = "symmetric-connected-serifless"
+		    capital-l = "serifless"
+		    capital-m = "hanging-serifless"
+		    capital-n = "standard-serifless"
+		    capital-p = "closed-serifless"
+		    capital-q = "straight"
+		    capital-r = "curly-serifless"
+		    capital-s = "serifless"
+		    capital-t = "serifless"
+		    capital-u = "toothed-serifless"
+		    capital-v = "curly-serifless"
+		    capital-w = "curly-serifless"
+		    capital-x = "curly-serifless"
+		    capital-y = "curly-serifless"
+		    capital-z = "curly-serifless"
+
+			# LETTERS
+		    a = "double-storey-serifless"
+		    b = "toothed-serifless"
+		    c = "serifless"
+		    d = "toothed-serifless"
+		    e = "flat-crossbar"
+		    f = "flat-hook-serifless-crossbar-at-half-ascender-height"
+		    g = "single-storey-serifless"
+		    h = "straight-serifless"
+		    i = "serifless"
+		    j = "serifless"
+		    k = "symmetric-connected-serifless"
+		    l = "tailed"
+		    m = "serifless"
+		    n = "straight-serifless"
+		    p = "eared-serifless"
+		    q = "straight-serifless"
+		    r = "hookless-serifless"
+		    s = "serifless"
+		    t = "flat-hook"
+		    u = "toothed-serifless"
+		    v = "curly-serifless"
+		    w = "curly-serifless"
+		    x = "curly-serifless"
+		    y = "curly-serifless"
+		    z = "curly-serifless"
+
+			# SYMBOLS
+		    capital-eszet = "corner-serifless"
+		    long-s = "bent-hook-diagonal-tailed"
+		    eszet = "traditional-diagonal-tailed-serifless"
+		    lower-alpha = "barred"
+		    lower-gamma = "curly"
+		    capital-delta = "curly"
+		    lower-delta = "rounded"
+		    lower-iota = "tailed"
+		    lower-kappa = "symmetric-connected-serifless"
+		    capital-lambda = "curly-serifless"
+		    lower-lambda = "curly"
+		    lower-nu = "curly"
+		    lower-chi = "curly-serifless"
+		    partial-derivative = "straight-bar"
+
+			# CYRLS
+		    cyrl-a = "double-storey-serifless"
+		    cyrl-capital-ze = "serifless"
+		    cyrl-ze = "tall-serifless"
+		    cyrl-capital-ka = "symmetric-connected-serifless"
+		    cyrl-ka = "symmetric-connected-serifless"
+		    cyrl-em = "hanging-serifless"
+		    cyrl-capital-en = "serifless"
+		    cyrl-en = "serifless"
+		    cyrl-capital-er = "closed-serifless"
+		    cyrl-er = "eared-serifless"
+		    cyrl-capital-u = "curly-serifless"
+		    cyrl-u = "curly-serifless"
+		    cyrl-capital-ya = "curly-serifless"
+		    cyrl-ya = "curly-serifless"
+
+			# OTHERS
+		    tittle = "round"
+		    diacritic-dot = "round"
+		    punctuation-dot = "round"
+		    braille-dot = "round"
+		    tilde = "low"
+		    caret = "low"
+		    ascii-grave = "straight"
+		    ascii-single-quote = "straight"
+		    paren = "normal"
+		    brace = "straight"
+		    at = "fourfold-solid-inner"
+		    percent = "dots"
+		    question = "corner"
+		    pilcrow = "curved"
+		    lig-ltgteq = "flat"
+
+	# LIGATIONS
+	[ buildPlans.Libretica.ligations ]
+		inherits = "dlig"
+		disables = [ "underscore-underscore" ]
+
+	# OPTIONS
+		# WEIGHTS
+		[ buildPlans.Libretica.weights.Regular ]
+			shape = 400
+			menu = 400
+			css = 400
+		[ buildPlans.Libretica.weights.Bold ]
+			shape = 700
+			menu = 700
+			css = 700
+		[ buildPlans.Libretica.weights.Thin ]
+			shape = 100
+			menu = 100
+			css = 100
+		[ buildPlans.Libretica.weights.Light ]
+			shape = 300
+			menu = 300
+			css = 300
+		[ buildPlans.Libretica.weights.Heavy ]
+			shape = 900
+			menu = 900
+			css = 900
+
+		# WIDTHS
+		[ buildPlans.Libretica.widths.Normal ]
+			shape = 500
+			menu = 5
+			css = "normal"
+		[ buildPlans.Libretica.widths.Extended ]
+			shape = 600
+			menu = 7
+			css = "expanded"
+		[ buildPlans.Libretica.widths.Condensed ]
+			shape = 416
+			menu = 3
+			css = "condensed"
+		[ buildPlans.Libretica.slopes.Upright ]
+			angle = 0
+			shape = "upright"
+			menu = "upright"
+			css = "normal"
+		[ buildPlans.Libretica.slopes.Italic ]
+			angle = 9
+			shape = "italic"
+			menu = "italic"
+			css = "italic"
+
+
+# LIBRETICA MONO
+[ buildPlans.Libremono ]
+	family = "Libretica Mono"
+	spacing = "term"
+	noCvSs = true
+	exportGlyphNames = true
+
+	# VARIANTS
+	[ buildPlans.Libremono.variants ]
+			inherits = "ss14"
+
+		# DESIGNS
+		[ buildPlans.Libremono.variants.design ]
+
+		    # NUMBERS
+		    one = "base-flat-top-serif"
+		    two = "straight-neck-serifless"
+		    three = "flat-top-serifless"
+		    four = "closed-non-crossing-serifless"
+		    five = "upright-flat-hook-serifless"
+		    six = "closed-contour"
+		    seven = "bend-serifless"
+		    eight = "crossing"
+		    nine = "closed-contour"
+		    zero = "dotted"
+
+		    # CAPITALS
+		    capital-a = "round-top-serifless"
+		    capital-b = "more-asymmetric-serifless"
+		    capital-c = "serifless"
+		    capital-d = "standard-serifless"
+		    capital-e = "serifless"
+		    capital-f = "serifless"
+		    capital-g = "flat-bottom-serifless-hookless"
+		    capital-h = "serifless"
+		    capital-i = "serifless"
+		    capital-j = "descending-serifed"
+		    capital-k = "symmetric-connected-serifless"
+		    capital-l = "serifless"
+		    capital-m = "hanging-serifless"
+		    capital-n = "asymmetric-serifless"
+		    capital-p = "closed-serifless"
+		    capital-q = "open-swash"
+		    capital-r = "standing-serifless"
+		    capital-s = "serifless"
+		    capital-t = "serifless"
+		    capital-u = "toothed-serifless"
+		    capital-v = "curly-serifless"
+		    capital-w = "rounded-vertical-sides-serifless"
+		    capital-x = "curly-serifless"
+		    capital-y = "curly-serifless"
+		    capital-z = "cursive"
+
+		    # LETTERS
+		    a = "double-storey-flat-bottom-serifless"
+		    b = "toothless-rounded-serifless"
+		    c = "serifless"
+		    d = "toothless-rounded-serifless"
+		    e = "flat-crossbar"
+		    f = "flat-hook-tailed-crossbar-at-half-ascender-height"
+		    g = "double-storey"
+		    h = "straight-serifless"
+		    i = "serifed-semi-tailed"
+		    j = "flat-hook-serifed"
+		    k = "cursive-serifless"
+		    l = "flat-tailed"
+		    m = "earless-corner-double-arch-short-leg-serifless"
+		    n = "earless-rounded-straight-serifless"
+		    p = "earless-rounded-serifless"
+		    q = "earless-rounded-straight-serifless"
+		    r = "earless-rounded-serifless"
+		    s = "serifless"
+		    t = "flat-hook-asymmetric"
+		    u = "toothless-rounded-serifless"
+		    v = "cursive-serifless"
+		    w = "rounded-vertical-sides-serifless"
+		    x = "curly-serifless"
+		    y = "cursive-serifless"
+		    z = "cursive"
+
+		    # SYMBOLS
+		    capital-eszet = "flat-top-serifless"
+		    long-s = "flat-hook-tailed"
+		    eszet = "traditional-tailed-serifless"
+		    lower-alpha = "barred-earless-rounded-tailed"
+		    lower-gamma = "casual"
+		    capital-delta = "curly"
+		    lower-delta = "flat-top"
+		    lower-iota = "diagonal-tailed"
+		    lower-kappa = "symmetric-connected-serifless"
+		    capital-lambda = "curly-serifless"
+		    lower-lambda = "curly-tailed-turn"
+		    lower-nu = "casual"
+		    lower-chi = "curly-above-baseline-serifless"
+		    partial-derivative = "closed-contour"
+
+		    # CYRLS
+		    cyrl-a = "double-storey-flat-bottom-serifless"
+		    cyrl-capital-ze = "serifless"
+		    cyrl-ze = "serifless"
+		    cyrl-capital-ka = "symmetric-connected-serifless"
+		    cyrl-ka = "symmetric-connected-serifless"
+		    cyrl-em = "hanging-serifless"
+		    cyrl-capital-en = "serifless"
+		    cyrl-en = "serifless"
+		    cyrl-capital-er = "closed-serifless"
+		    cyrl-er = "earless-rounded-serifless"
+		    cyrl-capital-u = "straight-serifless"
+		    cyrl-u = "straight-serifless"
+		    cyrl-capital-ya = "straight-serifless"
+		    cyrl-ya = "straight-serifless"
+
+		    # OTHERS
+		    tittle = "square"
+		    diacritic-dot = "square"
+		    punctuation-dot = "square"
+		    braille-dot = "square"
+		    tilde = "low"
+		    caret = "low"
+		    ascii-grave = "raised-inverse-comma"
+		    ascii-single-quote = "raised-comma"
+		    paren = "flat-arc"
+		    brace = "curly-flat-boundary"
+		    at = "compact"
+		    percent = "rings-continuous-slash"
+		    question = "corner-flat-hooked"
+		    pilcrow = "curved"
+		    lig-ltgteq = "flat"
+
+	# LIGATIONS
+	[ buildPlans.Libremono.ligations ]
+		inherits = "dlig"
+		disables = [ "underscore-underscore" ]
+
+	# OPTIONS
+		# WEIGHTS
+			[ buildPlans.Libremono.weights.Regular ]
+				shape = 400
+				menu = 400
+				css = 400
+			[ buildPlans.Libremono.weights.Bold ]
+				shape = 700
+				menu = 700
+				css = 700
+			[ buildPlans.Libremono.weights.Thin ]
+				shape = 100
+				menu = 100
+				css = 100
+			[ buildPlans.Libremono.weights.Light ]
+				shape = 300
+				menu = 300
+				css = 300
+			[ buildPlans.Libremono.weights.Heavy ]
+				shape = 900
+				menu = 900
+				css = 900
+
+		# WIDTHS
+			[ buildPlans.Libremono.widths.Normal ]
+				shape = 500
+				menu = 5
+				css = "normal"
+			[ buildPlans.Libremono.widths.Extended ]
+				shape = 600
+				menu = 7
+				css = "expanded"
+			[ buildPlans.Libremono.widths.Condensed ]
+				shape = 416
+				menu = 3
+				css = "condensed"
+			[ buildPlans.Libremono.slopes.Upright ]
+				angle = 0
+				shape = "upright"
+				menu = "upright"
+				css = "normal"
+			[ buildPlans.Libremono.slopes.Italic ]
+				angle = 10
+				shape = "italic"
+				menu = "italic"
+				css = "italic"
+
+
+# LIBRETICA DISPLAY
+[ buildPlans.Librefair ]
+	family = "Libretica Display"
+	spacing = "normal"
+	noCvSs = true
+	exportGlyphNames = false
+
+	# VARIANTS
+	[ buildPlans.Librefair.variants ]
+		inherits = "ss14"
+
+		# DESIGNS
+	    [ buildPlans.Librefair.variants.design ]
+
+		    # NUMBERS
+			one = "no-base-flat-top-serif"
+		    two = "straight-neck-serifless"
+		    three = "flat-top-serifless"
+		    four = "semi-open-non-crossing-serifless"
+		    five = "upright-flat-serifless"
+		    six = "closed-contour"
+		    seven = "straight-serifless"
+		    eight = "two-circles"
+		    nine = "closed-contour"
+		    zero = "dotted"
+
+		    # CAPITALS
+			capital-a = "round-top-serifless"
+		    capital-b = "more-asymmetric-serifless"
+		    capital-c = "serifless"
+		    capital-d = "standard-serifless"
+		    capital-e = "serifless"
+		    capital-f = "serifless"
+		    capital-g = "toothless-rounded-serifless-hooked"
+		    capital-h = "serifless"
+		    capital-i = "serifless"
+		    capital-j = "descending-serifless"
+		    capital-k = "curly-serifless"
+		    capital-l = "serifless"
+		    capital-m = "hanging-serifless"
+		    capital-n = "asymmetric-serifless"
+		    capital-p = "closed-serifless"
+		    capital-q = "detached-tailed"
+		    capital-r = "standing-serifless"
+		    capital-s = "serifless"
+		    capital-t = "serifless"
+		    capital-u = "toothless-rounded-serifless"
+		    capital-v = "curly-serifless"
+		    capital-w = "straight-vertical-sides-serifless"
+		    capital-x = "curly-serifless"
+		    capital-y = "curly-serifless"
+		    capital-z = "cursive"
+
+		    # LETTERS
+			a = "double-storey-toothless-rounded"
+		    b = "toothless-rounded-serifless"
+		    c = "serifless"
+		    d = "toothless-rounded-serifless"
+		    e = "rounded"
+		    f = "diagonal-tailed-crossbar-at-half-ascender-height"
+		    g = "single-storey-earless-rounded"
+		    h = "straight-serifless"
+		    i = "diagonal-tailed"
+		    j = "diagonal-tailed-serifless"
+		    k = "diagonal-tailed-cursive-serifless"
+		    l = "diagonal-tailed"
+		    n = "earless-rounded-straight-serifless"
+		    p = "earless-rounded-serifless"
+		    q = "earless-rounded-straight-serifless"
+		    r = "earless-rounded-serifless"
+		    s = "serifless"
+		    t = "diagonal-tailed-asymmetric-short-neck"
+		    u = "toothless-rounded-serifless"
+		    v = "cursive-serifless"
+		    w = "straight-vertical-sides-serifless"
+		    x = "curly-serifless"
+		    y = "cursive-serifless"
+		    z = "cursive"
+
+		    # SYMBOLS
+			capital-eszet = "corner-serifless"
+		    long-s = "bent-hook-diagonal-tailed"
+		    eszet = "traditional-diagonal-tailed-serifless"
+		    lower-alpha = "barred"
+		    capital-gamma = "serifless"
+		    lower-gamma = "curly"
+		    capital-delta = "curly"
+		    lower-delta = "flat-top"
+		    lower-iota = "diagonal-tailed"
+		    lower-kappa = "curly-serifless"
+		    capital-lambda = "curly-serifless"
+		    lower-pi = "small-capital"
+		    lower-final-sigma = "curly-tail"
+		    lower-tau = "diagonal-tailed"
+		    lower-upsilon = "casual-serifless"
+		    lower-phi = "cursive"
+		    partial-derivative = "closed-contour"
+
+		    # CYRLS
+			cyrl-a = "double-storey-toothless-rounded"
+		    cyrl-ve = "cursive-tall"
+		    cyrl-capital-ze = "serifless"
+		    cyrl-ze = "tall-unilateral-inward-serifed"
+		    cyrl-capital-ka = "curly-serifless"
+		    cyrl-ka = "curly-serifless"
+		    cyrl-em = "hanging-serifless"
+		    cyrl-capital-en = "serifless"
+		    cyrl-en = "serifless"
+		    cyrl-capital-er = "closed-serifless"
+		    cyrl-er = "earless-rounded-serifless"
+		    cyrl-capital-u = "cursive-serifless"
+		    cyrl-u = "cursive-serifless"
+		    cyrl-yeri = "round"
+		    cyrl-yery = "round"
+		    cyrl-capital-ya = "standing-serifless"
+		    cyrl-ya = "standing-serifless"
+
+		    # OTHERS
+			tittle = "square"
+		    diacritic-dot = "square"
+		    punctuation-dot = "square"
+		    braille-dot = "square"
+		    tilde = "low"
+		    caret = "low"
+		    ascii-grave = "straight"
+		    ascii-single-quote = "raised-comma"
+		    paren = "flat-arc"
+		    brace = "curly-flat-boundary"
+		    at = "threefold-solid-inner-tall"
+		    percent = "rings-segmented-slash"
+		    question = "corner"
+		    pilcrow = "curved"
+		    lig-ltgteq = "flat"
+
+	# LIGATIONS
+	[ buildPlans.Librefair.ligations ]
+		inherits = "dlig"
+		disables = [ "underscore-underscore" ]
+
+	# OPTIONS
+
+		# WEIGHTS
+		[ buildPlans.Librefair.weights.Regular ]
+			shape = 400
+			menu = 400
+			css = 400
+		[ buildPlans.Librefair.weights.Bold ]
+			shape = 700
+			menu = 700
+			css = 700
+		[ buildPlans.Librefair.weights.Thin ]
+			shape = 100
+			menu = 100
+			css = 100
+		[ buildPlans.Librefair.weights.Light ]
+			shape = 300
+			menu = 300
+			css = 300
+		[ buildPlans.Librefair.weights.Heavy ]
+			shape = 900
+			menu = 900
+			css = 900
+
+		# WIDTHS
+		[ buildPlans.Librefair.widths.Condensed ]
+			shape = 416
+			menu = 3
+			css = "condensed"
+		[ buildPlans.Librefair.widths.Normal ]
+			shape = 600
+			menu = 5
+			css = "normal"

@@ -1,0 +1,133 @@
+[shapeWidth.blend.500]
+width           = 500
+[shapeWidth.multiplies.blend.500]
+contrast        = 1
+stroke          = 1
+sb              = 1
+jut             = 1
+refJut          = 1
+longjut         = 1
+accentWidth     = 1
+rhook           = 1
+rbalance        = 1
+tbalance        = 1
+tbalance2       = 1
+archDepth       = 1
+smallArchDepth  = 1
+essRatio        = 1
+diagTailAngle   = 1.1
+diagTailDepth   = 1
+
+# "Grade 9"
+[shapeWidth.blend.720]
+width           = 720
+[shapeWidth.multiplies.blend.720]
+contrast        = 1.045
+stroke          = 1.105
+sb              = 1.890
+jut             = 1.325
+refJut          = 1.325
+longjut         = 1.325
+accentWidth     = 1.325
+rhook           = 1.325
+rbalance        = 1.236
+tbalance        = 1.210
+tbalance2       = 1.210
+archDepth       = 1.105
+smallArchDepth  = 1.105
+essRatio        = 0.955
+
+# "Grade 8"
+[shapeWidth.blend.657]
+width           = 660
+[shapeWidth.multiplies.blend.657]
+stroke          = 1.075
+sb              = 1.612
+jut             = 1.235
+refJut          = 1.235
+longjut         = 1.235
+accentWidth     = 1.235
+rhook           = 1.235
+rbalance        = 1.236
+tbalance        = 1.155
+tbalance2       = 1.155
+archDepth       = 1.075
+smallArchDepth  = 1.075
+
+# "Grade 7"
+[shapeWidth.blend.600]
+width           = 600
+[shapeWidth.multiplies.blend.600]
+stroke          = 1.050
+sb              = 1.375
+jut             = 1.150
+refJut          = 1.150
+longjut         = 1.150
+accentWidth     = 1.150
+rhook           = 1.150
+rbalance        = 1.152
+tbalance        = 1.100
+tbalance2       = 1.100
+archDepth       = 1.050
+smallArchDepth  = 1.050
+essRatio        = 1
+diagTailAngle   = 1
+diagTailDepth   = 1.2
+
+# "Grade 6"
+[shapeWidth.blend.547]
+width           = 545
+[shapeWidth.multiplies.blend.547]
+stroke          = 1.025
+sb              = 1.175
+jut             = 1.072
+refJut          = 1.072
+longjut         = 1.072
+accentWidth     = 1.072
+rhook           = 1.072
+rbalance        = 1.075
+tbalance        = 1.050
+tbalance2       = 1.050
+archDepth       = 1.025
+smallArchDepth  = 1.025
+
+# "Grade 4"
+[shapeWidth.blend.456]
+width           = 456
+[shapeWidth.multiplies.blend.456]
+contrast        = 1
+stroke          = 0.976
+sb              = 0.790
+jut             = 0.960
+refJut          = 0.960
+longjut         = 0.960
+accentWidth     = 0.960
+rhook           = 1
+rbalance        = 0.930
+tbalance        = 0.955
+tbalance2       = 0.955
+archDepth       = 0.975
+smallArchDepth  = 0.975
+
+# "Grade 3"
+[shapeWidth.blend.416]
+width           = 416
+[shapeWidth.multiplies.blend.416]
+contrast        = 1
+stroke          = 0.952
+sb              = 0.625
+jut             = 0.925
+refJut          = 0.925
+longjut         = 0.925
+accentWidth     = 0.925
+rhook           = 1
+rbalance        = 0.870
+tbalance        = 0.910
+tbalance2       = 0.910
+archDepth       = 0.952
+smallArchDepth  = 0.952
+essRatio        = 1
+
+# Slab correlation
+[shapeWidth-serifs-slab.multiplies.blend.500]
+sb = 1.075

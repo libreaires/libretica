@@ -1,0 +1,278 @@
+"use strict";
+import * as _s0_t0 from "@iosevka/util";
+var _s0_t1;
+export {_s0_t1 as apply};
+var r1_apply, _r1_t0, _r1_t1, _r1_t2, _r1_t3, _r1_t4, _r1_t5, _r1_t6, _r1_t7;
+var _r1_t8 = _s0_t0;
+var r1_mix = _r1_t8.mix;
+var r1_linreg = _r1_t8.linreg;
+var r1_clamp = _r1_t8.clamp;
+var r1_fallback = _r1_t8.fallback;
+var r1_Waveform = _r1_t8.Waveform;
+var r1_xn$GlyphBlocks$2Lrc2b = [];
+_s0_t1 = r1_apply = function () {
+    var r307_block, _r307_t4, _r307_t6;
+    var _r307_t3 = this;
+    var _r307_t0 = r1_xn$GlyphBlocks$2Lrc2b;
+    var _r307_t1 = _r307_t0.length;
+    var _r307_t2 = 0;
+    var _r307_t5 = _r307_t2 < _r307_t1;
+    while (_r307_t5) {
+        _r307_t6 = (r307_block = _r307_t0[_r307_t2], r307_block(_r307_t3), _r307_t2 = _r307_t2 + 1);
+        _r307_t5 = _r307_t2 < _r307_t1;
+    }
+    return _r307_t6;
+};
+r1_xn$GlyphBlocks$2Lrc2b.push(function (r311_xn$Capture_Ext$2Lrc2b) {
+    var _r311_t0, _r311_t1;
+    r311_xn$Capture_Ext$2Lrc2b["$Exec$"].defineGlyphBlock(r311_xn$Capture_Ext$2Lrc2b, "Symbol-Punctuation-Percentages", function (r312_xn$Capture$2Lrc8, r312_xn$ExportCapture$2Lrc4b) {
+        var _r312_t7, _r312_t8;
+        var _r312_t0 = r312_xn$Capture$2Lrc8;
+        var r312_xn$GlyphSaveSink$2Lrc4b = _r312_t0["$GlyphSaveSink$"];
+        var r312_xn$NamedParameterPair$2Lrc9b = _r312_t0["$NamedParameterPair$"];
+        var r312_xn$Exec$2Lrc5 = _r312_t0["$Exec$"];
+        var r312_para = _r312_t0.para;
+        var r312_DivFrame = _r312_t0.DivFrame;
+        var _r312_t1 = r312_xn$Capture$2Lrc8.Metrics;
+        var r312_Width = _r312_t1.Width;
+        var r312_SB = _r312_t1.SB;
+        var r312_CAP = _r312_t1.CAP;
+        var r312_Translate = _r312_t1.Translate;
+        var r312_HSwToV = _r312_t1.HSwToV;
+        var r312_Upward = _r312_t1.Upward;
+        var r312_Downward = _r312_t1.Downward;
+        var r312_O = _r312_t1.O;
+        var r312_AdviceStroke = _r312_t1.AdviceStroke;
+        var r312_AdviceStroke2 = _r312_t1.AdviceStroke2;
+        var r312_Stroke = _r312_t1.Stroke;
+        var r312_HalfStroke = _r312_t1.HalfStroke;
+        var r312_WideWidth0 = _r312_t1.WideWidth0;
+        var r312_WideWidth1 = _r312_t1.WideWidth1;
+        var r312_NarrowUnicodeT = _r312_t1.NarrowUnicodeT;
+        var r312_WideUnicodeT = _r312_t1.WideUnicodeT;
+        var r312_RightSB = _r312_t1.RightSB;
+        var r312_PeriodRadius = _r312_t1.PeriodRadius;
+        var r312_ArchDepthA = _r312_t1.ArchDepthA;
+        var r312_ArchDepthB = _r312_t1.ArchDepthB;
+        var _r312_t2 = r312_xn$Capture$2Lrc8.SpiroFns;
+        var r312_corner = _r312_t2.corner;
+        var r312_flat = _r312_t2.flat;
+        var r312_curl = _r312_t2.curl;
+        var r312_widths = _r312_t2.widths;
+        var r312_heading = _r312_t2.heading;
+        var r312_dispiro = _r312_t2.dispiro;
+        var r312_xn$spirooutline$1aao = _r312_t2["spiro-outline"];
+        var _r312_t3 = r312_xn$Capture$2Lrc8.SpiroFns;
+        var r312_xn$decor$0cao = _r312_t3["decor@"];
+        var r312_xn$decor$0cao1 = _r312_t3["decor@@"];
+        var r312_xn$decor$0cao11 = _r312_t3["decor@@@"];
+        var _r312_t4 = r312_xn$Capture$2Lrc8.BooleFns;
+        var r312_difference = _r312_t4.difference;
+        var _r312_t5 = r312_xn$Capture$2Lrc8["$Exec$"].glyphBlockStore.CommonShapes.resolve();
+        var r312_OShape = _r312_t5.OShape;
+        var r312_OShapeOutline = _r312_t5.OShapeOutline;
+        var r312_DiagCorDs = _r312_t5.DiagCorDs;
+        var r312_HBar = _r312_t5.HBar;
+        var r312_VBar = _r312_t5.VBar;
+        var r312_Arch = _r312_t5.Arch;
+        var r312_WithDotVariants = _r312_t5.WithDotVariants;
+        var _r312_t6 = r312_xn$Capture$2Lrc8["$Exec$"].glyphBlockStore["Common-Derivatives"].resolve();
+        var r312_xn$selectvariant$7Hrq = _r312_t6["select-variant"];
+        var r312_NarrowUnicode = r312_NarrowUnicodeT(r312_WideWidth1);
+        var r312_WideUnicode = r312_WideUnicodeT(r312_WideWidth1);
+        var r312_PercentBarCor = function (r315_df, r315_sw) {
+            var _r315_t0, _r315_t1;
+            var r315_a = r1_Waveform.sawtooth((r315_df.rightSB - r315_df.leftSB - r315_sw) / (r312_CAP - 0));
+            return 1 / Math.sqrt(1 - r315_a * r315_a);
+        };
+        var r312_PercentBarShape = function (r316_df, r316_sw) {
+            var _r316_t0, _r316_t1;
+            var r316_cor = r312_PercentBarCor(r316_df, r316_sw);
+            return r312_xn$spirooutline$1aao(r312_corner(r316_df.leftSB, 0), r312_corner(r316_df.rightSB - r312_HSwToV(r316_cor * r316_sw), r312_CAP), r312_corner(r316_df.rightSB, r312_CAP), r312_corner(r316_df.leftSB + r312_HSwToV(r316_cor * r316_sw), 0));
+        };
+        r312_xn$GlyphSaveSink$2Lrc4b.save("percent.dots", null, new r312_xn$Capture$2Lrc8.GlyphProc(function (r319_currentGlyph) {
+            var _r319_t0, _r319_t1;
+            r319_currentGlyph.include(r312_PercentBarShape(r312_DivFrame(1), r312_Stroke));
+            var r319_dotwidth = r312_AdviceStroke(4) * 1.5;
+            r319_currentGlyph.include(r312_VBar.l(r312_SB, r1_mix(r312_CAP, 0, 0.3), r312_CAP, r319_dotwidth));
+            r319_currentGlyph.include(r312_VBar.r(r312_RightSB, 0, r1_mix(0, r312_CAP, 0.3), r319_dotwidth));
+            return void 0;
+        }));
+        r312_WithDotVariants("commercialMinusSign", 8274, function (r323_DrawAt, r323_kdr, r323_overshoot) {
+            var _r323_t0, _r323_t1;
+            return new r312_xn$Capture$2Lrc8.GlyphProc(function (r325_currentGlyph) {
+                var _r325_t0, _r325_t1;
+                r325_currentGlyph.include(r312_PercentBarShape(r312_DivFrame(1), r312_AdviceStroke(4)));
+                var r325_r = r312_PeriodRadius * r323_kdr;
+                r325_currentGlyph.include(r323_DrawAt(r312_SB + r325_r, r312_CAP - r325_r, r325_r - r323_overshoot));
+                r325_currentGlyph.include(r323_DrawAt(r312_RightSB - r325_r, 0 + r325_r, r325_r - r323_overshoot));
+                return void 0;
+            });
+        });
+        r312_xn$GlyphSaveSink$2Lrc4b.save("permille.NWID.dots", null, new r312_xn$Capture$2Lrc8.GlyphProc(function (r331_currentGlyph) {
+            var _r331_t0, _r331_t1;
+            var r331_df = r331_currentGlyph.include(r312_DivFrame(r312_para.advanceScaleM));
+            var r331_slopeDf = r312_DivFrame(1);
+            var r331_refSw = r331_df.adviceStroke(4);
+            r331_currentGlyph.include(r312_PercentBarShape(r331_slopeDf, r331_refSw));
+            var r331_dotwidth = r331_refSw * 1.5;
+            r331_currentGlyph.include(r312_VBar.l(r312_SB, r1_mix(r312_CAP, 0, 0.3), r312_CAP, r331_dotwidth));
+            var r331_cor = r312_PercentBarCor(r331_slopeDf, r331_refSw);
+            var r331_gap = r1_mix(0, r331_df.rightSB, 0.9) - r312_HSwToV(r331_cor * r331_refSw);
+            var r331_lowerDotWidth = 1.5 * r312_AdviceStroke(3, r331_gap / r312_Width);
+            r331_currentGlyph.include(r312_VBar.r(r331_df.rightSB - r331_gap * 0.45, 0, r1_mix(0, r312_CAP, 0.3), r331_lowerDotWidth));
+            r331_currentGlyph.include(r312_VBar.r(r331_df.rightSB, 0, r1_mix(0, r312_CAP, 0.3), r331_lowerDotWidth));
+            return void 0;
+        }));
+        r312_xn$GlyphSaveSink$2Lrc4b.save("basepoint.NWID.dots", null, new r312_xn$Capture$2Lrc8.GlyphProc(function (r339_currentGlyph) {
+            var _r339_t0, _r339_t1;
+            var r339_df = r339_currentGlyph.include(r312_DivFrame(r312_para.advanceScaleM));
+            var r339_slopeDf = r312_DivFrame(0.75 * r312_para.advanceScaleM);
+            var r339_refSw = r339_df.adviceStroke(5);
+            r339_currentGlyph.include(r312_PercentBarShape(r339_slopeDf, r339_refSw));
+            var r339_dotwidth = r339_refSw * 1.5;
+            r339_currentGlyph.include(r312_VBar.l(r312_SB, r1_mix(r312_CAP, 0, 0.3), r312_CAP, r339_dotwidth));
+            var r339_cor = r312_PercentBarCor(r339_slopeDf, r339_refSw);
+            var r339_gap = r1_mix(0, r339_df.rightSB, 0.9) - r312_HSwToV(r339_cor * r339_refSw);
+            var r339_lowerDotWidth = 1.5 * r312_AdviceStroke(4, r339_gap / r312_Width);
+            r339_currentGlyph.include(r312_VBar.r(r339_df.rightSB - r339_gap * 0.6, 0, r1_mix(0, r312_CAP, 0.3), r339_lowerDotWidth));
+            r339_currentGlyph.include(r312_VBar.r(r339_df.rightSB - r339_gap * 0.3, 0, r1_mix(0, r312_CAP, 0.3), r339_lowerDotWidth));
+            r339_currentGlyph.include(r312_VBar.r(r339_df.rightSB, 0, r1_mix(0, r312_CAP, 0.3), r339_lowerDotWidth));
+            return void 0;
+        }));
+        r312_xn$GlyphSaveSink$2Lrc4b.save("percent.ringsContinuousSlash", null, new r312_xn$Capture$2Lrc8.GlyphProc(function (r348_currentGlyph) {
+            var _r348_t0, _r348_t1;
+            r348_currentGlyph.setWidth(r312_Width);
+            var r348_l = r312_SB / 2;
+            var r348_r = r312_Width - r348_l;
+            var r348_m = r1_mix(r348_l, r348_r, 0.5);
+            var r348_ada = r312_ArchDepthA * 0.5;
+            var r348_adb = r312_ArchDepthB * 0.5;
+            var r348_swRing = r312_AdviceStroke(3.75);
+            var r348_swBar = r312_AdviceStroke(3.75);
+            var r348_fineBar = r312_AdviceStroke(4.5);
+            var r348_halfGapRing = r312_AdviceStroke(6) / 2;
+            var r348_cor = r312_DiagCorDs(r312_CAP, r348_r - r348_l, r348_swBar);
+            r348_currentGlyph.include(r312_OShape(r312_CAP, r312_CAP / 2 + r348_halfGapRing, r348_l, r348_m - r348_halfGapRing, r348_swRing, r348_ada, r348_adb));
+            r348_currentGlyph.include(r312_OShape(r312_CAP / 2 - r348_halfGapRing, 0, r348_m + r348_halfGapRing, r348_r, r348_swRing, r348_ada, r348_adb));
+            r348_currentGlyph.include(r312_dispiro(r312_corner(r348_r, r312_CAP, r312_widths.rhs.heading(r348_swBar * r348_cor, r312_Downward)), r312_corner(r1_mix(r348_r, r348_l, 0.5), r1_mix(r312_CAP, 0, 0.5), r312_widths.center.heading(r348_fineBar * r348_cor, r312_Downward)), r312_corner(r348_l, 0, r312_widths.lhs.heading(r348_swBar * r348_cor, r312_Downward))));
+            var r348_perMilleOffset = r312_Width + r348_l - r348_halfGapRing * 1.5 - r348_m;
+            var r348_ConnnectedBar = function () {
+                var _r353_t0, _r353_t1;
+                return r312_difference(r312_HBar.t(r312_Arch["adjust-x"].top(r1_mix(r348_l, r348_m - r348_halfGapRing, 0.5), r348_swRing), r348_r - r312_HSwToV(r348_swBar), r312_CAP, r348_fineBar), r312_OShapeOutline.NoOvershoot(r312_CAP, r312_CAP / 2 + r348_halfGapRing, r348_l, r348_m - r348_halfGapRing, r348_swRing, r348_ada, r348_adb));
+            };
+            var r348_PerMilleProc = function () {
+                var _r354_t0, _r354_t1;
+                return new r312_xn$Capture$2Lrc8.GlyphProc(function (r356_currentGlyph) {
+                    var _r356_t0, _r356_t1;
+                    r356_currentGlyph.setWidth(r312_WideWidth0);
+                    r356_currentGlyph.include(r312_OShape(r312_CAP / 2 - r348_halfGapRing, 0, r348_m + r348_halfGapRing + r348_perMilleOffset, r348_r + r348_perMilleOffset, r348_swRing, r348_ada, r348_adb));
+                    r356_currentGlyph.include(r312_Translate((r312_WideWidth0 - r348_r - r348_perMilleOffset) / 2, 0));
+                    return void 0;
+                });
+            };
+            var r348_BasePointProc = function () {
+                var _r360_t0, _r360_t1;
+                return new r312_xn$Capture$2Lrc8.GlyphProc(function (r362_currentGlyph) {
+                    var _r362_t0, _r362_t1;
+                    r362_currentGlyph.setWidth(r312_WideWidth0);
+                    r362_currentGlyph.include(r312_OShape(r312_CAP / 2 - r348_halfGapRing, 0, r348_m + r348_halfGapRing + r348_perMilleOffset, r348_r + r348_perMilleOffset, r348_swRing, r348_ada, r348_adb));
+                    r362_currentGlyph.include(r312_OShape(r312_CAP / 2 - r348_halfGapRing, 0, r348_m + r348_halfGapRing + 2 * r348_perMilleOffset, r348_r + 2 * r348_perMilleOffset, r348_swRing, r348_ada, r348_adb));
+                    r362_currentGlyph.include(r312_Translate((r312_WideWidth0 - r348_r - 2 * r348_perMilleOffset) / 2, 0));
+                    return void 0;
+                });
+            };
+            r312_xn$GlyphSaveSink$2Lrc4b.save("percent.ringsContinuousSlashAlsoConnected", null, new r312_xn$Capture$2Lrc8.ForkGlyphProc(r348_currentGlyph, r348_ConnnectedBar()));
+            r312_xn$GlyphSaveSink$2Lrc4b.save("permille.WWID.ringsContinuousSlash", null, new r312_xn$Capture$2Lrc8.ForkGlyphProc(r348_currentGlyph, r348_PerMilleProc()));
+            r312_xn$GlyphSaveSink$2Lrc4b.save("basepoint.WWID.ringsContinuousSlash", null, new r312_xn$Capture$2Lrc8.ForkGlyphProc(r348_currentGlyph, r348_BasePointProc()));
+            r312_xn$GlyphSaveSink$2Lrc4b.save("permille.WWID.ringsContinuousSlashAlsoConnected", null, new r312_xn$Capture$2Lrc8.ForkGlyphProc(r348_currentGlyph, new r312_xn$Capture$2Lrc8.GlyphProc(function (r376_currentGlyph) {
+                var _r376_t0, _r376_t1;
+                r376_currentGlyph.include(r348_ConnnectedBar(), true, true);
+                r376_currentGlyph.include(r348_PerMilleProc());
+                return void 0;
+            })));
+            r312_xn$GlyphSaveSink$2Lrc4b.save("basepoint.WWID.ringsContinuousSlashAlsoConnected", null, new r312_xn$Capture$2Lrc8.ForkGlyphProc(r348_currentGlyph, new r312_xn$Capture$2Lrc8.GlyphProc(function (r382_currentGlyph) {
+                var _r382_t0, _r382_t1;
+                r382_currentGlyph.include(r348_ConnnectedBar(), true, true);
+                r382_currentGlyph.include(r348_BasePointProc());
+                return void 0;
+            })));
+            return void 0;
+        }));
+        r312_xn$GlyphSaveSink$2Lrc4b.save("percent.ringsSegmentedSlash", null, new r312_xn$Capture$2Lrc8.GlyphProc(function (r387_currentGlyph) {
+            var _r387_t0, _r387_t1;
+            r387_currentGlyph.setWidth(r312_Width);
+            var r387_l = r312_SB / 2;
+            var r387_r = r312_Width - r387_l;
+            var r387_m = r1_mix(r387_l, r387_r, 0.5);
+            var r387_ada = r312_ArchDepthA * 0.5;
+            var r387_adb = r312_ArchDepthB * 0.5;
+            var r387_swRing = r312_AdviceStroke(3.5);
+            var r387_swBar = r312_AdviceStroke(3);
+            var r387_fine = r312_AdviceStroke(4);
+            var r387_cor = r312_DiagCorDs(r312_CAP, r387_r - r387_l, r387_swBar);
+            var r387_pFine = 0.5 - Math.max(r312_CAP / 10, r312_HalfStroke) / Math.hypot(r312_CAP, r387_r - r387_l);
+            r387_currentGlyph.include(r312_OShape(r312_CAP, r312_CAP / 2, r387_l, r387_m, r387_swRing, r387_ada, r387_adb));
+            r387_currentGlyph.include(r312_OShape(r312_CAP / 2, 0, r387_m, r387_r, r387_swRing, r387_ada, r387_adb));
+            r387_currentGlyph.include(r312_dispiro(r312_widths.rhs(r387_swBar * r387_cor), r312_flat(r387_r, r312_CAP, r312_heading(r312_Downward)), r312_curl(r1_mix(r387_r, r387_l, r387_pFine), r1_mix(r312_CAP, 0, r387_pFine), r312_widths.heading(r387_fine * r387_cor, 0, r312_Downward))));
+            r387_currentGlyph.include(r312_dispiro(r312_widths.rhs(r387_swBar * r387_cor), r312_flat(r387_l, 0, r312_heading(r312_Upward)), r312_curl(r1_mix(r387_l, r387_r, r387_pFine), r1_mix(0, r312_CAP, r387_pFine), r312_widths.heading(r387_fine * r387_cor, 0, r312_Upward))));
+            return void 0;
+        }));
+        r312_xn$GlyphSaveSink$2Lrc4b.save(null, null, new r312_xn$Capture$2Lrc8.GlyphProc(function (r395_currentGlyph) {
+            var _r395_t0, _r395_t1;
+            var r395_width = r312_Width * r312_para.advanceScaleM;
+            r395_currentGlyph.setWidth(r395_width);
+            var r395_l = r312_SB / 2;
+            var r395_r = r395_width - r395_l;
+            var r395_m = r1_mix(r395_l, r395_r, 0.5);
+            var r395_ada = r312_ArchDepthA * 0.5 * r312_para.advanceScaleM;
+            var r395_adb = r312_ArchDepthB * 0.5 * r312_para.advanceScaleM;
+            var r395_sw = r312_AdviceStroke2(4, 5, r312_CAP, r312_para.advanceScaleM);
+            var r395_fine = r312_AdviceStroke2(5, 5, r312_CAP, r312_para.advanceScaleM);
+            var r395_otop = r312_CAP / 2 - Math.max(r312_CAP / 10, r395_fine);
+            var r395_coOtop = r312_CAP - r395_otop;
+            r395_currentGlyph.include(r312_OShape(r312_CAP, r395_coOtop, r395_l, r395_m, r395_sw, r395_ada, r395_adb));
+            r395_currentGlyph.include(r312_dispiro(r312_flat(r395_l, r1_mix(r395_otop, r395_coOtop, 0.3), r312_widths.center(r395_fine)), r312_curl(r395_r, r395_coOtop, r312_widths.center(r395_sw))));
+            r312_xn$GlyphSaveSink$2Lrc4b.save("permille.NWID.ringsContinuousSlash", null, new r312_xn$Capture$2Lrc8.ForkGlyphProc(r395_currentGlyph, new r312_xn$Capture$2Lrc8.GlyphProc(function (r402_currentGlyph) {
+                var _r402_t0, _r402_t1;
+                var r402_l1 = r395_l - r312_O;
+                var r402_r2 = r395_r + 0;
+                var r402_gap = (r402_l1 - r312_O) * r312_para.advanceScaleM;
+                var r402_fill = 1 / 2 * (r402_r2 - r402_l1) - 1 / 2 * r402_gap;
+                var r402_r1 = r402_l1 + r402_fill;
+                var r402_l2 = r402_r1 + r402_gap;
+                var r402_swp = r312_AdviceStroke2(4, 5, r312_CAP, r312_para.advanceScaleM);
+                r402_currentGlyph.include(r312_OShape(r395_otop, 0, r402_l1, r402_r1, r402_swp, r395_ada, r395_adb));
+                r402_currentGlyph.include(r312_OShape(r395_otop, 0, r402_l2, r402_r2, r402_swp, r395_ada, r395_adb));
+                return void 0;
+            })));
+            r312_xn$GlyphSaveSink$2Lrc4b.save("basepoint.NWID.ringsContinuousSlash", null, new r312_xn$Capture$2Lrc8.ForkGlyphProc(r395_currentGlyph, new r312_xn$Capture$2Lrc8.GlyphProc(function (r408_currentGlyph) {
+                var _r408_t0, _r408_t1;
+                var r408_l1 = r395_l - r312_O;
+                var r408_r3 = r395_r + 0;
+                var r408_gap = (r408_l1 - 0) * r312_para.advanceScaleM;
+                var r408_fill = 1 / 3 * (r408_r3 - r408_l1) - 2 / 3 * r408_gap;
+                var r408_r1 = r408_l1 + r408_fill;
+                var r408_l2 = r408_r1 + r408_gap;
+                var r408_r2 = r408_l2 + r408_fill;
+                var r408_l3 = r408_r2 + r408_gap;
+                var r408_swp = r312_AdviceStroke2(6, 5, r312_CAP, r312_para.advanceScaleM);
+                var r408_adap = r312_ArchDepthA * (1 / 3) * r312_para.advanceScaleM;
+                var r408_adbp = r312_ArchDepthB * (1 / 3) * r312_para.advanceScaleM;
+                r408_currentGlyph.include(r312_OShape(r395_otop, 0, r408_l1, r408_r1, r408_swp, r408_adap, r408_adbp));
+                r408_currentGlyph.include(r312_OShape(r395_otop, 0, r408_l2, r408_r2, r408_swp, r408_adap, r408_adbp));
+                r408_currentGlyph.include(r312_OShape(r395_otop, 0, r408_l3, r408_r3, r408_swp, r408_adap, r408_adbp));
+                return void 0;
+            })));
+            return void 0;
+        }));
+        r312_xn$selectvariant$7Hrq("percent", "%");
+        r312_xn$selectvariant$7Hrq("permille.NWID", r312_NarrowUnicode(8240), new r312_xn$NamedParameterPair$2Lrc9b("follow", "permille.NWID"));
+        r312_xn$selectvariant$7Hrq("permille.WWID", r312_WideUnicode(8240), new r312_xn$NamedParameterPair$2Lrc9b("follow", "permille.WWID"));
+        r312_xn$selectvariant$7Hrq("basepoint.NWID", r312_NarrowUnicode(8241), new r312_xn$NamedParameterPair$2Lrc9b("follow", "permille.NWID"));
+        return r312_xn$selectvariant$7Hrq("basepoint.WWID", r312_WideUnicode(8241), new r312_xn$NamedParameterPair$2Lrc9b("follow", "permille.WWID"));
+    });
+    return void 0;
+});
+
+
